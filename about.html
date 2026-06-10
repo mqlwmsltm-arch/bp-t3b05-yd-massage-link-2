@@ -1,391 +1,141 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>여의도 마사지 상세정보 및 이용절차 | 여의도 마사지 링크</title>
-  <meta name="description" content="여의도 증권가 직장인들의 만성 어깨 통증과 피로를 말끔하게 타겟팅해서 풀어주는 1등 명품 스웨디시 마사지 예약 링크. 위치 시그널과 정찰 가격 안내 수록.">
-  <meta name="keywords" content="여의도 마사지 링크, 여의도 마사지 위치, 여의도 마사지 가격, 여의도 마사지 시스템">
-  <link rel="canonical" href="https://t3b05-yd-massage-link-2.pages.dev/about.html">
-  <meta name="bpaas-design-system" content="midnight-glass">
-  <meta name="bpaas-design-theme" content="kr-t3b05-yd-massage-link-2">
-  <style>
-    
-    :root {
-      --bg-dark: #022c22;
-      --bg-card: rgba(255, 255, 255, 0.03);
-      --border-color: rgba(255, 255, 255, 0.08);
-      --primary-neon: #064e3b;
-      --accent-neon: #34d399;
-      --text-main: #f4f4f5;
-      --text-muted: #a1a1aa;
-    }
-    
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    
-    body {
-      background-color: var(--bg-dark);
-      color: var(--text-main);
-      font-family: system-ui, -apple-system, sans-serif;
-      line-height: 1.7;
-      overflow-x: hidden;
-    }
-    
-    .glow-header {
-      background: rgba(0, 0, 0, 0.6);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border-color);
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-    
-    .nav-container {
-      max-width: 1100px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 18px 20px;
-    }
-    
-    .logo-glow {
-      font-size: 1.5rem;
-      font-weight: 900;
-      color: #fff;
-      text-decoration: none;
-      background: linear-gradient(135deg, #fff, var(--accent-neon));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
-    }
-    
-    .nav-links a {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin-left: 28px;
-      font-size: 0.98rem;
-      font-weight: 700;
-      transition: color 0.3s, text-shadow 0.3s;
-    }
-    
-    .nav-links a:hover {
-      color: var(--accent-neon);
-      text-shadow: 0 0 8px var(--accent-neon);
-    }
-    
-    .hero-glow {
-      padding: 140px 20px 100px;
-      text-align: center;
-      background: radial-gradient(circle at top, var(--primary-neon) 0%, transparent 75%);
-      position: relative;
-    }
-    
-    .hero-glow h1 {
-      font-size: 3.2rem;
-      font-weight: 900;
-      margin-bottom: 24px;
-      letter-spacing: -0.06em;
-      line-height: 1.25;
-    }
-    
-    .gradient-txt {
-      background: linear-gradient(135deg, #fff, var(--accent-neon));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
-    }
-    
-    .hero-glow p {
-      font-size: 1.25rem;
-      color: var(--text-muted);
-      max-width: 750px;
-      margin: 0 auto 35px;
-    }
-    
-    .phone-bar {
-      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.04), transparent);
-      padding: 18px;
-      border-top: 1px solid var(--border-color);
-      border-bottom: 1px solid var(--border-color);
-      border-radius: 8px;
-      margin: 25px auto;
-      max-width: 600px;
-      font-size: 1.4rem;
-      font-weight: 900;
-      letter-spacing: 0.05em;
-      text-align: center;
-    }
-    
-    .phone-bar a {
-      color: var(--accent-neon);
-      text-decoration: none;
-      transition: text-shadow 0.3s;
-    }
-    
-    .phone-bar a:hover {
-      text-shadow: 0 0 10px var(--accent-neon);
-    }
-    
-    .neon-btn {
-      display: inline-block;
-      padding: 15px 36px;
-      background: linear-gradient(135deg, var(--primary-neon), var(--accent-neon));
-      color: white;
-      text-decoration: none;
-      font-weight: 800;
-      border-radius: 9999px;
-      box-shadow: 0 4px 22px rgba(236, 72, 153, 0.35);
-      transition: all 0.3s ease;
-      letter-spacing: 0.03em;
-    }
-    
-    .neon-btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 30px rgba(236, 72, 153, 0.65);
-    }
-    
-    .sec-wrap {
-      max-width: 950px;
-      margin: 0 auto;
-      padding: 60px 20px;
-    }
-    
-    .glass-box {
-      background: var(--bg-card);
-      border: 1px solid var(--border-color);
-      border-radius: 24px;
-      padding: 45px;
-      backdrop-filter: blur(10px);
-      margin-bottom: 45px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    }
-    
-    .glass-box h2 {
-      font-size: 2.2rem;
-      font-weight: 900;
-      margin-bottom: 28px;
-      color: #fff;
-      border-left: 5px solid var(--accent-neon);
-      padding-left: 20px;
-      letter-spacing: -0.04em;
-    }
-    
-    .glass-box p {
-      font-size: 1.1rem;
-      color: var(--text-muted);
-      margin-bottom: 24px;
-      text-align: justify;
-    }
-    
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 28px;
-      margin-top: 36px;
-    }
-    
-    .mini-card {
-      background: rgba(255, 255, 255, 0.015);
-      border: 1px solid var(--border-color);
-      border-radius: 16px;
-      padding: 28px;
-      transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
-    }
-    
-    .mini-card:hover {
-      border-color: var(--accent-neon);
-      transform: translateY(-3px);
-      box-shadow: 0 4px 15px rgba(255, 255, 255, 0.05);
-    }
-    
-    .mini-card h3 {
-      font-size: 1.3rem;
-      font-weight: 800;
-      color: #fff;
-      margin-bottom: 14px;
-      letter-spacing: -0.02em;
-    }
-    
-    .mini-card p {
-      font-size: 0.98rem;
-      color: var(--text-muted);
-      margin-bottom: 0;
-    }
-    
-    .premium-table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 30px 0;
-      color: var(--text-main);
-    }
-    
-    .premium-table th {
-      background: rgba(255,255,255,0.03);
-      padding: 16px;
-      border-bottom: 2px solid var(--border-color);
-      font-weight: 800;
-      text-align: left;
-    }
-    
-    .premium-table td {
-      padding: 16px;
-      border-bottom: 1px solid var(--border-color);
-      font-size: 1.05rem;
-    }
-    
-    .premium-table tbody tr:hover {
-      background: rgba(255,255,255,0.01);
-    }
-    
-    .ugc-review {
-      border-top: 1px solid var(--border-color);
-      padding-top: 24px;
-      margin-top: 24px;
-    }
-    
-    .reviewer-meta {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.88rem;
-      color: var(--accent-neon);
-      margin-bottom: 10px;
-      font-weight: 700;
-    }
-    
-    .reviewer-text {
-      font-size: 1.02rem;
-      color: var(--text-main);
-      font-style: italic;
-    }
-    
-    footer {
-      background: rgba(0, 0, 0, 0.5);
-      border-top: 1px solid var(--border-color);
-      padding: 50px 20px;
-      text-align: center;
-      font-size: 0.95rem;
-      color: var(--text-muted);
-    }
-    
-    footer p {
-      margin-bottom: 12px;
-    }
-    
-    footer a {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin: 0 12px;
-      font-weight: 700;
-      transition: color 0.3s;
-    }
-    
-    footer a:hover {
-      color: var(--accent-neon);
-    }
-    
-    @media(max-width: 768px) {
-      .hero-glow h1 {
-        font-size: 2.3rem;
-      }
-      .nav-links {
-        display: none;
-      }
-      .glass-box {
-        padding: 28px;
-      }
-      .premium-table {
-        font-size: 0.9rem;
-      }
-    }
-  
-  </style>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "AboutPage",
-      "name": "여의도 마사지 상세정보",
-      "url": "https://t3b05-yd-massage-link-2.pages.dev/about.html",
-      "description": "여의도 마사지의 상세 위치, 이용 프로세스 및 예약 가격 안내."
-    }
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>여의도 마사지 링크 – 정보 & 브로 케어 상세</title>
+    <meta name="description" content="여의도 마사지 링크에서 브로 케어의 모든 정보를 확인하세요. 위치, 가격, 후기, 자주 묻는 질문까지. 지금 전화 010-6279-0862">
+    <meta name="keywords" content="여의도 마사지,여의도 마사지 링크,브로 마사지,여의도 힐링,마사지 추천,여의도 정보">
+    <link rel="canonical" href="https://t3b05-yd-massage-link-2.vercel.app/info">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <meta property="og:title" content="여의도 마사지 링크 – 브로 케어 정보">
+    <meta property="og:description" content="여의도에서 가장 거친 마사지. 마사지 링크에서 브로 케어를 경험하세요. 010-6279-0862">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://t3b05-yd-massage-link-2.vercel.app/info">
+    <meta property="og:image" content="https://t3b05-yd-massage-link-2.vercel.app/og-image.jpg">
 </head>
 <body>
+    <header class="brutalist-header">
+        <div class="logo">
+            <span class="logo-icon">💆</span>
+            <span class="logo-text">마사지 링크</span>
+        </div>
+        <nav class="hamburger-menu">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="/">홈</a></li>
+                <li><a href="/services">서비스</a></li>
+                <li><a href="/info" class="active">정보</a></li>
+                <li><a href="/contact">연락처</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <header class="glow-header">
-    <div class="nav-container">
-      <a href="index.html" class="logo-glow">여의도 마사지 포털</a>
-      <nav class="nav-links">
-        <a href="index.html">홈</a>
-        <a href="about.html">상세정보</a>
-        <a href="blog.html">블로그</a>
-      </nav>
-    </div>
-  </header>
+    <main class="brutalist-main">
+        <section class="hero-section">
+            <h1 class="hero-title">여의도 마사지 링크 <span class="highlight">브로 케어</span> 정보</h1>
+            <p class="hero-subtitle">근육 풀고, 스트레스 싸악 – 여기 다 있어, 형.</p>
+            <a href="tel:010-6279-0862" class="cta-button">📞 지금 전화 010-6279-0862</a>
+        </section>
 
-  <section class="hero-glow">
-    <h1><span class="gradient-txt">DETAILED INFO</span> 상세 정보</h1>
-    <p>여의도 로컬로서 형들이 헛돈 쓰는 일 절대 없도록 확실한 랜드마크와 투명 주종 가격을 공개합니다.</p>
-    <div class="phone-bar">
-      📞 실시간 직통 전화: <a href="tel:010-6279-0862">010-6279-0862</a>
-    </div>
-  </section>
+        <section class="info-cards">
+            <div class="card">
+                <div class="card-icon">📍</div>
+                <h2 class="card-title">위치 & 길찾기</h2>
+                <p class="card-text">
+                    여의도 한복판, 더현대서울 바로 옆 골목. 지하철 여의나루역 3번 출구에서 도보 5분.<br>
+                    네비게이션: '여의도 마사지 링크' 검색하면 바로 나와.<br>
+                    주차는 건물 지하 주차장 가능 (2시간 무료 인정)
+                </p>
+            </div>
 
-  <main class="sec-wrap">
-    <div class="glass-box">
-      <h2>스토리 & 이용 동기</h2>
-      <p>형이 마사지 포털을 본격적으로 구축하게 된 사연은 진짜 눈물 없이 들을 수 없다. 나도 옛날엔 매일 밤샘 야근에 목이랑 어깨가 뻐근하게 결리던 평범한 직장인이었는데, 여의도 근처에서 피로 좀 시원하게 풀어볼까 하고 찾아갔다가 성의 없는 엉터리 관리사 만나서 마사지는 개뿔 온몸에 멍만 잔뜩 들고 돈 10만 원 넘게 털리고 나온 쓰라린 내상이 한두 번이 아니었음. 그때 피눈물 흘리며 다짐했지. 내 동생들은 절대 이 바닥에서 눈탱이 안 맞고 최고의 극진한 VIP 힐링 대우만 받게 하겠다고. 그렇게 내가 직접 매장 매니저들 퀄리티 검증하고 가성비 깎아내서 만든 직통 단골 예약 창구가 바로 010-6279-0862다. 형 믿고 연락하면 안전 그 자체임.</p>
-    </div>
+            <div class="card">
+                <div class="card-icon">⏰</div>
+                <h2 class="card-title">영업 시간</h2>
+                <p class="card-text">
+                    매일 10:00 – 22:00 (마지막 접수 21:00)<br>
+                    주말 & 공휴일도 정상 영업<br>
+                    *예약 우선이니까 미리 전화주는 게 안전해, 브로.
+                </p>
+            </div>
 
-    <div class="glass-box">
-      <h2>상세 위치 시그널 & 인프라</h2>
-      <p>📌 입지 및 프리미엄 접근성 안내: 여의도 핵심 역세권 출구에서 걸어서 단 3분 거리에 있는 최고급 상업 빌딩 내에 세련되게 자리 잡고 있어서 찾아오기 개사기 수준으로 편함. 넓고 쾌적한 전용 주차 공간 완비되어 있어 자차 이용 손님도 주차 스트레스 제로이며, 프라이빗 1인 전용 샤워실과 이태리식 프리미엄 아로마 오일 라인업으로 완전 차별화된 럭셔리함을 자부한다.</p>
-    </div>
+            <div class="card">
+                <div class="card-icon">💵</div>
+                <h2 class="card-title">가격 안내</h2>
+                <p class="card-text">
+                    기본 브로 케어 (60분) – 70,000원<br>
+                    딥 릴리즈 (90분) – 100,000원<br>
+                    스포츠 마사지 (120분) – 130,000원<br>
+                    *첫 방문 할인 10%! 전화 예약 시 바로 적용
+                </p>
+            </div>
 
-    <div class="glass-box">
-      <h2>투명 정찰 가격표</h2>
-      <p>애초에 빌지 장난을 원천 차단하기 위해 주종 및 시간 코스 견적을 명확히 고시합니다.</p>
-      
-        <table class="premium-table">
-          <thead>
-            <tr><th>테라피 코스</th><th>시간</th><th>정상가</th><th>예약 할인가 (010-6279-0862)</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>정통 아로마 림프테라피 A코스</td><td>60분</td><td>110,000원</td><td><strong>90,000원</strong></td></tr>
-            <tr><td>딥스웨디시 스페셜 B코스</td><td>80분</td><td>140,000원</td><td><strong>120,000원</strong></td></tr>
-            <tr><td>VIP 최고급 전신 시그니처 C코스</td><td>100분</td><td>180,000원</td><td><strong>150,000원</strong></td></tr>
-          </tbody>
-        </table>
-      
-    </div>
+            <div class="card">
+                <div class="card-icon">🌟</div>
+                <h2 class="card-title">왜 마사지 링크여야 하는가?</h2>
+                <p class="card-text">
+                    형, 여기는 그냥 마사지가 아니야. 브로 케어, 알지?<br>
+                    근육 뭉친 데는 팔꿈치로 확 풀어주고, 스트레스는 이야기로 풀고.<br>
+                    여의도에서 일하는 직장인들 사이에서 입소문 난 곳이야.<br>
+                    "일 끝나고 여기서 90분 받고 나면 진짜 새사람 됨" – 단골 형님의 후기
+                </p>
+            </div>
+        </section>
 
-    <div class="glass-box">
-      <h2>자주 묻는 질문 (FAQ)</h2>
-      <div style="margin-bottom: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 20px;">
-        <h4 style="color: var(--accent-neon); margin-bottom: 10px;">Q. 예약 없이 바로 매장으로 가도 되나요?</h4>
-        <p style="color: var(--text-muted); font-size: 1rem;">A. 주말이나 피크 타임에는 룸이 풀로 차서 워크인으로 오시면 대기 시간이 2~3시간씩 걸리거나 헛걸음하기 쉽습니다. 형들의 골든타임을 사수하고 실시간 대기실 가동 룸을 확보하기 위해 오시기 최소 30분 전 010-6279-0862 예약센터로 전화 한 통만 때려주시길 정중히 권합니다!</p>
-      </div>
-      <div>
-        <h4 style="color: var(--accent-neon); margin-bottom: 10px;">Q. 정찰가 외에 현장 빌지 추가금 청구가 있나요?</h4>
-        <p style="color: var(--text-muted); font-size: 1rem;">A. 단 10원짜리 하나도 허위나 부가 요금을 추가 청구하지 않습니다. 예약 단계에서 합의된 정찰 요금 그대로 카드/현금 깔끔 정산 마감해 드리니 눈탱이 걱정은 싹 접어두셔도 좋습니다!</p>
-      </div>
-    </div>
-  </main>
+        <section class="faq-section">
+            <h2 class="section-title">자주 묻는 질문 (브로 버전)</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <input type="checkbox" id="faq1" class="faq-toggle">
+                    <label for="faq1" class="faq-question">예약 꼭 해야 돼?</label>
+                    <div class="faq-answer">
+                        <p>워크인도 가능한데, 형, 기다릴 각오 해야 해. 특히 점심시간이나 퇴근 후엔 거의 만석이야. 전화 010-6279-0862로 30분 전에 알려주면 바로 받을 수 있게 해줄게.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <input type="checkbox" id="faq2" class="faq-toggle">
+                    <label for="faq2" class="faq-question">옷은 어떻게 입고 가?</label>
+                    <div class="faq-answer">
+                        <p>편한 옷 그냥 입고 와. 탈의실 있고, 가운도 준비돼 있어. 속옷만 입고 받아도 돼. 근데 너무 꽉 끼는 옷보단 트레이닝복이 좋아, 몸 풀기 편하게.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <input type="checkbox" id="faq3" class="faq-toggle">
+                    <label for="faq3" class="faq-question">결제는 뭘로 해?</label>
+                    <div class="faq-answer">
+                        <p>현금, 카드 다 가능. 계좌이체도 돼. 카드 결제 시 3% 수수료 있는데, 현금 내면 그만큼 할인해줄게. 서로 윈윈, 브로!</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <input type="checkbox" id="faq4" class="faq-toggle">
+                    <label for="faq4" class="faq-question">여의도 외에 다른 지점 있어?</label>
+                    <div class="faq-answer">
+                        <p>아직 여의도 한 곳뿐이야. 하지만 이곳 하나로 충분하다는 게 단골들의 평. 앞으로 확장 계획 있으면 여기 사이트에 제일 먼저 알릴게.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <footer>
-    <p><strong>여의도 마사지 찐후기 가이드 포털</strong></p>
-    <p>주소: 서울특별시 여의도구 일대 | 연락처: 010-6279-0862</p>
-    <p>
-      <a href="index.html">홈</a> | 
-      <a href="about.html">상세정보</a>
-      | <a href="blog.html">블로그</a>
-    </p>
-    <p style="margin-top: 16px; opacity: 0.5;">&copy; 2026 여의도 마사지 Portal. All Rights Reserved. 본 사이트는 성인 전용 정보 포털입니다.</p>
-  </footer>
+        <section class="contact-prompt">
+            <h2>지금 바로 브로 케어 받으러?</h2>
+            <p>전화 한 통이면 예약 끝! 010-6279-0862</p>
+            <p class="prompt-note">"오늘은 진짜 몸이 녹아야겠다" 싶은 날, 망설이지 말고 전화해, 형.</p>
+        </section>
+    </main>
 
+    <footer class="brutalist-footer">
+        <div class="footer-info">
+            <p>여의도 마사지 링크 | 사업자등록번호: 123-45-67890 | 대표: 브로</p>
+            <p>주소: 서울 영등포구 여의도동 123-45 (더현대서울 방향)</p>
+            <p>전화: <a href="tel:010-6279-0862">010-6279-0862</a></p>
+            <p class="footer-small">© 2025 마사지 링크. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
